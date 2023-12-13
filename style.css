@@ -64,3 +64,11 @@ nav ul li a {
       margin-top: 110px;
     }
   }
+
+  .profile_pic {
+    max-width: 500px;
+    height: 300px; /*  fixed height */
+    object-fit: cover; /* cover area to make pictures seem same height, might cause slight cropping */
+    display: block;
+    margin: 0 auto;
+  }
