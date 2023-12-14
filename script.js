@@ -14,3 +14,4 @@ document.addEventListener('DOMContentLoaded', function() {
   }, 3000); // Rotate image every 3 seconds
 });
  
+alert("Welcome to Ivan's website!");
