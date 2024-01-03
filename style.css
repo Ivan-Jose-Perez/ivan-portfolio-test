@@ -110,3 +110,49 @@ nav ul li a {
     padding: 0px 2px; */
 
   }
+
+  /* Using Flexbox */
+header, main, footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Responsive design with proportional units */
+.logo-container, .contact-links, .photo-rotator, main {
+  width: 100%;
+  max-width: 960px; /* example max-width */
+}
+
+/* Hover effects */
+nav ul li a:hover, .contact-links a:hover {
+  color: cyan; /* Highlight text in cyan on hover */
+  text-decoration: underline;
+}
+
+/* Contact form styles */
+#form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px; /* Adjust as needed */
+  margin: 0 auto;
+}
+
+#form input, #form textarea {
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+#submit {
+  background-color: #304b5e;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: cyan; /* Change button background on hover */
+}

@@ -15,3 +15,14 @@ document.addEventListener('DOMContentLoaded', function() {
 });
  
 alert("Welcome to Ivan's website!");
+
+// adjusting the form settings
+
+const form = document.querySelector('#form');
+const submitButton = document.querySelector('#submit');
+
+form.addEventListener('submit', (e) => {
+    submitButton.disabled = true;
+    e.preventDefault();
+    window.location.href = window.location.origin + '/success.html';
+});
