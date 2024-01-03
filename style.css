@@ -30,16 +30,17 @@ nav ul li a {
 
 .logo-container {
   /* ... */
-  height: 60px; /* Or the height that matches your header */
+  height: 60px; 
   display: flex;
   justify-content: center;
   align-items: center;
   width: auto;
 }
 
+/* I want to make the logo as tall as its container */
 .logo {
-  height: 100%; /* This will make the logo as tall as its container */
-  max-width: none; /* Overrides the previous max-width if necessary */
+  height: 100%; 
+  max-width: none; 
 }
 
 /* .logo {
@@ -119,24 +120,24 @@ header, main, footer {
   flex-direction: column;
 }
 
-/* Responsive design with proportional units */
+/* I'm adjusting proportional units */
 .logo-container, .contact-links, .photo-rotator, main {
   width: 100%;
   max-width: 960px; /* example max-width */
 }
 
-/* Hover effects */
+/* Hover effect */
 nav ul li a:hover, .contact-links a:hover {
   color: cyan; /* Highlight text in cyan on hover */
   text-decoration: underline;
 }
 
-/* Contact form styles */
+/* Contact form formatting */
 #form {
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 400px; /* Adjust as needed */
+  max-width: 400px; 
   margin: 0 auto;
 }
 
@@ -153,6 +154,7 @@ nav ul li a:hover, .contact-links a:hover {
   cursor: pointer;
 }
 
+/* Change button background on hover */
 #submit:hover {
-  background-color: cyan; /* Change button background on hover */
+  background-color: cyan; 
 }
